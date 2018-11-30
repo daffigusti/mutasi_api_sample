@@ -2,5 +2,5 @@
 
 Silahkan jalankan api.php untuk menjalankan contoh penggunaan APInya.
 
-Dokumentasi API Silahkan ke url di bawah ini : 
+Dokumentasi API Silahkan ke url ini : 
 http://bit.ly/2RpScXM

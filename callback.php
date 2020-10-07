@@ -25,7 +25,7 @@ $data = json_decode(file_get_contents('php://input'), true);
 $api_token = "TOKEN_ANDA";
 
 $token = $data['api_key'];
-if ($api_token != $token) {
+if ($api_token != strval($token)) {
     echo "invalid api token";
     exit;
 }

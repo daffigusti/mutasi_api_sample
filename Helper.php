@@ -3,7 +3,7 @@
 class Helper
 {
     const API_URL = "https://mutasibank.co.id/api/v1";
-    const API_KEY = "[API MUTASI BANK]";
+    const API_KEY = "API MUTASI BANK";
 
     public static function GetAccount()
     {

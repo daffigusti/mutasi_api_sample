@@ -64,7 +64,7 @@ foreach ($data['data_mutasi'] as $dtm) {
     $result_v = http_get("https://mutasibank.co.id/api/v1/validate/$id", $headers);
     $data_r = json_decode($result_v);
     
-    if ($data_r->valid) {
+    if ($data_r->valid && $data_r->data->amount == $amount) {
         //transaksi valid
         //proses untuk selanjutnya
         //Logic validasi transaksi selanjutnya ada disini

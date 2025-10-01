@@ -1,0 +1,24 @@
+# Environment variables (contains secrets!)
+.env
+
+# Logs
+*.log
+webhook.log
+
+# IDE
+.vscode/
+.idea/
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -4,7 +4,7 @@
  * Mutasibank API Helper Class
  *
  * Comprehensive helper class for Mutasibank API integration
- * Documentation: https://documenter.getpostman.com/view/367648/2sB3HnJf4v
+ * Documentation: https://mutasibank.co.id/api/docs
  *
  * @version 2.0
  * @updated 2025-01-10
